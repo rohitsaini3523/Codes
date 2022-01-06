@@ -8,7 +8,8 @@ int main()
     {
         int N, A, B;
         cin >> N >> A >> B;
-        
+        int p = 2 * (180 + N);
+        cout << p - (A + B) << endl;
     }
 
     return 0;
