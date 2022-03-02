@@ -1,9 +1,12 @@
 #include<iostream>
+#include<string>
 using namespace std;
 #define ll long long 
 int main()
 {
-    cout << 'A' - 'a';
+    int n;
+    cin >> n;
+    cout << to_string(n) + ", The End!";
 
     return 0;
 }

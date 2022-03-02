@@ -1,0 +1,1 @@
+{"name":"Local: Binary_Base_Basics","url":"c:\\Users\\rs3523\\Code\\Code-Chef\\Binary_Base_Basics.cpp","tests":[{"id":1645856888731,"input":"2\n3 0\n110\n6 1\n101100","output":"NO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\rs3523\\Code\\Code-Chef\\Binary_Base_Basics.cpp","group":"local","local":true}

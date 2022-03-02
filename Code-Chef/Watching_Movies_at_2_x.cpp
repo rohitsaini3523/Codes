@@ -3,7 +3,8 @@ using namespace std;
 #define ll long long 
 int main()
 {
-    cout << 'A' - 'a';
-
+    int x, y;
+    cin >> x >> y;
+    cout << x - (y / 2) << endl;
     return 0;
 }
