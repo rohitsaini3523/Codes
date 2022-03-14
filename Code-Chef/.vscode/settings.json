@@ -9,7 +9,22 @@
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true,
   "files.associations": {
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "cmath": "cpp"
   },
-  "C_Cpp.errorSquiggles": "Enabled"
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "FirstMySql",
+      "database": "myshop",
+      "username": "rs3523",
+      "password": "6989"
+    }
+  ]
 }
