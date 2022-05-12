@@ -3,7 +3,7 @@ using namespace std;
 #define ll long long 
 bool possible(int n, int c)
 {
-    return n - 1 <= c && c <= n * (n + 1) / 2 - 1;
+    return ((n - 1 <= c) && (c <= n * (n + 1) / 2 - 1));
 }
 
 int main()
@@ -21,7 +21,12 @@ int main()
         }
         else
         {
-            ;
+            cout << " ";
+            for (int i = 0; i < n; i++)
+            {
+                cout << n - i << " ";
+            }
+            cout << "\n";
         }
     }
     return 0;

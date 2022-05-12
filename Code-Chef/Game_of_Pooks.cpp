@@ -5,15 +5,15 @@ int main()
     int t = 1;
     ios::sync_with_stdio(0);
     cin.tie(0);
-    // cin >> t;
+    cin >> t;
     while(t--)
     {
-        int x, y;
-        cin >> x >> y;
-        if(x!= 0 && y!= 0)
-            cout << abs(x - y) << "\n";
+        int n;
+        cin >> n;
+        if(n<4)
+            cout << (n + 1) / 2 << "\n";
         else
-            cout << abs(x - y) + 1 << "\n";
+            cout << n << "\n";
     }
 
     return 0;
